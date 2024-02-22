@@ -1,0 +1,65 @@
+.booking-container{
+    background-image: url("https://res.cloudinary.com/djtr6bvr2/image/upload/v1706942305/Brown_Pastel_Minimalist_Linktree_Background_n4hqxn.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card-booking {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #f8f3f3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(110, 52, 52, 0.1);
+    background-color: #b8b0b5;
+  }
+  .label{
+    color: rgb(223, 91, 15);
+    font-family: "Georgia";
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-booking {
+    width: 95%;
+    padding: 10px;
+    background-color: rgb(223, 91, 15);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(202, 144, 111);
+  }
+  
+
+@media screen and (max-width:756px){
+    .booking-container{
+        background-size: cover;
+    }
+}

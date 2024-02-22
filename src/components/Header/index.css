@@ -1,0 +1,71 @@
+.header-container{
+    background-color: black;
+    height: 100vh;
+    text-align: center;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+}
+.head{
+    text-align: center;
+    color: white;
+    font-family: "Georgia";
+    font-size: 58px;
+    padding-top: 60px;
+}
+.text{
+    color: white;
+    font-family: "Italic";
+    font-size: 26px;
+    line-height: 0%;
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-header{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.footer{
+    text-align: center;
+    color: rgb(215, 216, 133);
+    font-family: "Georgia";
+    font-size: 40px;
+}
+.footer-content{
+    text-align: center;
+    color: rgb(215, 216, 133);
+    font-family: "Italic";
+    line-height: 0.5;
+}
+.truck{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:756px){
+    .head{
+        font-size: 40px;
+    }
+    .header-container{
+        height: auto;
+        padding-bottom: 50px;
+        margin-bottom: 10px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .img-container{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:756px) {
+    .truck{
+        display: none;
+    }
+}
